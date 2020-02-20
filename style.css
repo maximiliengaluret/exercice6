@@ -27,5 +27,13 @@ body {
 .classePerso2 {
   font-weight: bold;
   font-size: 2rem;
+  cursor: pointer;
+}
+
+.classePerso2:hover {
+  font-size: 5rem;
+  letter-spacing: 0.5em;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 /*# sourceMappingURL=style.css.map */
