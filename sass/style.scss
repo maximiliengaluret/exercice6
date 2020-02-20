@@ -11,16 +11,6 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twentynineteenenfant
 */
-body {
-  font-family: 'Open Sans', sans-serif;
-}
 
-.rayure {
-  background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
-}
-
-.classePerso {
-  color: #2936e9;
-  cursor: pointer;
-}
-/*# sourceMappingURL=style.css.map */
+@import "_entete.scss";
+@import "_gutenberg.scss";
